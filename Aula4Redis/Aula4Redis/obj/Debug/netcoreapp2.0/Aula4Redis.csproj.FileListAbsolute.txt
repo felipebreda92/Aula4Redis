@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\bin\Debug\netcoreapp2.0\Aula4Redis.deps.json
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\bin\Debug\netcoreapp2.0\Aula4Redis.runtimeconfig.json
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\bin\Debug\netcoreapp2.0\Aula4Redis.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\bin\Debug\netcoreapp2.0\Aula4Redis.dll
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\obj\Debug\netcoreapp2.0\Aula4Redis.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\obj\Debug\netcoreapp2.0\Aula4Redis.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\obj\Debug\netcoreapp2.0\Aula4Redis.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\obj\Debug\netcoreapp2.0\Aula4Redis.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\bin\Debug\netcoreapp2.0\Aula4Redis.pdb
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\obj\Debug\netcoreapp2.0\Aula4Redis.dll
+C:\Users\Administrator\source\repos\Aula4Redis\Aula4Redis\obj\Debug\netcoreapp2.0\Aula4Redis.pdb
