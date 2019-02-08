@@ -1317,11 +1317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\logonrmlocal\\Desktop\\Aula4Redis\\Aula4Redis\\Aula4Redis\\Aula4Redis.csproj",
-      "projectName": "Aula4Redis",
-      "projectPath": "C:\\Users\\logonrmlocal\\Desktop\\Aula4Redis\\Aula4Redis\\Aula4Redis\\Aula4Redis.csproj",
+      "projectUniqueName": "C:\\Users\\logonrmlocal\\Desktop\\Aula4Redis\\Aula4Redis\\PubRedis\\PubRedis.csproj",
+      "projectName": "PubRedis",
+      "projectPath": "C:\\Users\\logonrmlocal\\Desktop\\Aula4Redis\\Aula4Redis\\PubRedis\\PubRedis.csproj",
       "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\logonrmlocal\\Desktop\\Aula4Redis\\Aula4Redis\\Aula4Redis\\obj\\",
+      "outputPath": "C:\\Users\\logonrmlocal\\Desktop\\Aula4Redis\\Aula4Redis\\PubRedis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

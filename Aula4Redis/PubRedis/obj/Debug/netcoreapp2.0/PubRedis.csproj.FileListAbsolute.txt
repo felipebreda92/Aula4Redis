@@ -1,0 +1,10 @@
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\bin\Debug\netcoreapp2.0\PubRedis.deps.json
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\bin\Debug\netcoreapp2.0\PubRedis.runtimeconfig.json
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\bin\Debug\netcoreapp2.0\PubRedis.runtimeconfig.dev.json
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\bin\Debug\netcoreapp2.0\PubRedis.dll
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\obj\Debug\netcoreapp2.0\PubRedis.csproj.CoreCompileInputs.cache
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\obj\Debug\netcoreapp2.0\PubRedis.AssemblyInfoInputs.cache
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\obj\Debug\netcoreapp2.0\PubRedis.AssemblyInfo.cs
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\bin\Debug\netcoreapp2.0\PubRedis.pdb
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\obj\Debug\netcoreapp2.0\PubRedis.dll
+C:\Users\logonrmlocal\Desktop\Aula4Redis\Aula4Redis\PubRedis\obj\Debug\netcoreapp2.0\PubRedis.pdb
