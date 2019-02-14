@@ -97,7 +97,8 @@ namespace SubRedis
                 string divisao = (numero1 / numero2).ToString();
                 string subtracao = (numero1 - numero2).ToString();
 
-                return $"A soma é {soma} , mas se você quiser a multiplicação é : {multiplicacao} a divisão é: {divisao} e a subtração é: {subtracao} e uma frase pra apaziguar: {lstComplemento[new Random().Next(lstComplemento.Count)]}";
+                return $"A soma é {soma} ";
+                    //, mas se você quiser a multiplicação é : {multiplicacao} a divisão é: {divisao} e a subtração é: {subtracao} e uma frase pra apaziguar: {lstComplemento[new Random().Next(lstComplemento.Count)]}";
 
             }                
             else
