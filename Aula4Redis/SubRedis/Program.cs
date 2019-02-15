@@ -1,6 +1,9 @@
-﻿using StackExchange.Redis;
+﻿using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
+using StackExchange.Redis;
 using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace SubRedis
@@ -46,16 +49,33 @@ namespace SubRedis
             lstComplemento.Add("Estão me censurando 3,1415926535897932.");
             lstComplemento.Add("Não sei contar.");
 
-            var redis = ConnectionMultiplexer.Connect("40.122.106.36");
-            //var redis = ConnectionMultiplexer.Connect("localhost");
-            IDatabase db = redis.GetDatabase();
+            // Redis 
+            //var redis = ConnectionMultiplexer.Connect("40.122.106.36");
+            ////var redis = ConnectionMultiplexer.Connect("localhost");
+            //IDatabase db = redis.GetDatabase();
 
-            var sub = redis.GetSubscriber();
+            //var sub = redis.GetSubscriber();
 
-            sub.Subscribe("perguntas", (ch, msg) =>
-            {
-                db.HashSet(ObterIdPergunta(msg), "PedroCriadoPelaVó", ObterResposta(msg));
-            });
+            //sub.Subscribe("perguntas", (ch, msg) =>
+            //{
+            //    db.HashSet(ObterIdPergunta(msg), "PedroCriadoPelaVó", ObterResposta(msg));
+            //});
+
+            var factory = new ConnectionFactory { HostName = "40.122.106.36" };
+            var connection = factory.CreateConnection();
+            var channel = connection.CreateModel();
+
+            var consumer = new EventingBasicConsumer(channel);
+            consumer.Received += (model, ea) => {
+                var body = ea.Body;
+                var message = Encoding.UTF8.GetString(body);
+                var resposta = ObterResposta(message);
+                Console.WriteLine(" [x] Received {0}", resposta);
+            };
+
+            channel.BasicConsume(queue: "perguntas",
+            autoAck: true,
+            consumer: consumer);
 
             Console.ReadKey();
         }
